@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'localhost/codeigniter-3/user/login';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,8 +32,7 @@ $config['base_url'] = '';
 |
 | Typically this will be your index.php file, unless you've renamed it to
 | something else. If you are using mod_rewrite to remove the page set this
-| variable so that it is blank.
-|
+| variable so that it is blank.|
 */
 $config['index_page'] = 'index.php';
 
@@ -324,7 +323,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'VDyMt9vRGzF8rx';
 
 /*
 |--------------------------------------------------------------------------
